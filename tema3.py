@@ -59,18 +59,3 @@ print(f"Cantina a incasat: {pret_total} lei.")
 
 
 
-produse_7_lei = []
-
-doar_preturi = [preturi[0][1], preturi[1][1], preturi[2][1]]
-
-print(doar_preturi)
-
-for pret in doar_preturi:
-    if pret <= 7:
-        produse_7_lei.append(pret)
-        stergere_pret = doar_preturi.pop(0)
-    elif:
-        continue
-
-print(produse_7_lei)
-
